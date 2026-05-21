@@ -48,6 +48,32 @@ A Knowledge-Based AI Agent Simulation built using Python and Tkinter.
 
 \- Tkinter
 
+\## Screenshots
+
+
+
+\### AI Simulation
+
+
+
+!\[Game Screenshot](screenshots/game1.png)
+
+
+
+\### AI Exploring Environment
+
+
+
+!\[Game Screenshot](screenshots/game2.png)
+
+
+
+\### Gold Discovery
+
+
+
+!\[Game Screenshot](screenshots/game3.png)
+
 
 
 \## How to Run
