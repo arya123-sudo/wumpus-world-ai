@@ -1,86 +1,57 @@
-\# Wumpus World AI Simulation
+# 🏆 Wumpus World AI Simulation
 
+A **knowledge-based AI agent simulation** built with Python and Tkinter. An autonomous agent explores a randomly generated Wumpus World — reasoning about pits, the Wumpus, and hidden gold from percepts alone, under a fog of war — while a live dashboard shows its knowledge, inference and score.
 
+## ✨ Features
 
-A Knowledge-Based AI Agent Simulation built using Python and Tkinter.
+- **Autonomous AI Agent** — explores the world on its own, no human input
+- **Knowledge-Based Reasoning** — maintains a knowledge base of visited cells and percepts (breeze, stench)
+- **Inference Engine** — deduces safe cells and danger locations before moving
+- **Random World Generation** — a new world layout every run
+- **Fog of War Exploration** — the agent only "sees" what it has perceived
+- **Smart Exploration System** — prefers provably safe moves, takes calculated risks only when needed
+- **AI Thinking Logs** — live log of the agent's reasoning as it plays
+- **Score System** — rewards gold discovery and efficient exploration
+- **Professional Dashboard UI** — grid, knowledge state and logs in one Tkinter window
 
+## 🧠 AI Concepts Used
 
+- Knowledge-Based Agents
+- Inference Engine
+- Autonomous Agents
+- Reasoning Under Uncertainty
+- Environment Perception
 
-\## Features
+## 🛠️ Technologies Used
 
-\- Autonomous AI Agent
+- **Python**
+- **Tkinter** (standard library — no external packages needed)
 
-\- Knowledge-Based Reasoning
+## 📸 Screenshots
 
-\- Inference Engine
+### AI Simulation
 
-\- Random World Generation
+![Game Screenshot](screeshot/game1.png.png)
 
-\- Fog of War Exploration
+### AI Exploring Environment
 
-\- Smart Exploration System
+![Game Screenshot](screeshot/game2.png.png)
 
-\- AI Thinking Logs
+### Gold Discovery
 
-\- Score System
+![Game Screenshot](screeshot/game3.png.png)
 
-\- Professional Dashboard UI
-
-
-
-\## AI Concepts Used
-
-\- Knowledge-Based Agents
-
-\- Inference Engine
-
-\- Autonomous Agents
-
-\- Reasoning Under Uncertainty
-
-\- Environment Perception
-
-
-
-\## Technologies Used
-
-\- Python
-
-\- Tkinter
-
-\## Screenshots
-
-
-
-\### AI Simulation
-
-
-
-!\[Game Screenshot](screenshots/game1.png)
-
-
-
-\### AI Exploring Environment
-
-
-
-!\[Game Screenshot](screenshots/game2.png)
-
-
-
-\### Gold Discovery
-
-
-
-!\[Game Screenshot](screenshots/game3.png)
-
-
-
-\## How to Run
-
-
+## ▶️ How to Run
 
 ```bash
+# Clone the repository
+git clone https://github.com/arya123-sudo/wumpus-world-ai.git
+cd wumpus-world-ai
 
+# Run the simulation (Python 3, Tkinter included in the standard library)
 python main.py
+```
 
+## 👤 Author
+
+**Arya Yaligar** — [GitHub](https://github.com/arya123-sudo) · [LinkedIn](https://www.linkedin.com/in/arya-yaligar-ba15a2385)
